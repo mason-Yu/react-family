@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
-
-export default class Page1 extends Component {
+import './Login.css'
+import hh from '../Images/hh.jpg';
+export default class Login extends Component {
     render() {
         return (
-            <div>
+            <div className="page-box">
                 欢迎登陆
+                <img src={hh}/>
             </div>
         )
     }
